@@ -1,0 +1,38 @@
+export const contentBlockWithImage = {
+  name: 'contentWithImage',
+  type: 'array',
+  title: 'Innehåll',
+  of: [
+    {
+      type: 'block',
+    },
+    {
+      type: 'image',
+      name: 'image',
+      title: 'Bild',
+      fields: [
+        {
+          type: 'text',
+          name: 'alt',
+          title: 'Alternative text',
+          description: `Some of your visitors cannot see images, 
+            be they blind, color-blind, low-sighted; 
+            alternative text is of great help for those 
+            people that can rely on it to have a good idea of 
+            what\'s on your page.`,
+        },
+      ],
+    },
+  ],
+}
+
+export const contentBlock = {
+  name: 'content',
+  type: 'array',
+  title: 'Innehåll',
+  of: [
+    {
+      type: 'block',
+    },
+  ],
+}
