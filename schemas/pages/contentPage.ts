@@ -35,10 +35,11 @@ export default {
       type: 'string',
       title: 'Subtitle',
     },
-    /* {
-      type: 'contentContainer',
+    {
+      type: 'contentWithImage',
       name: 'content',
-    }, */
+    },
+    {type: 'images', name: 'images'},
   ],
 }
 
