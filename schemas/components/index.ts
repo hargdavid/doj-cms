@@ -1,11 +1,14 @@
-import { contentContainer } from '../pages/contentPage'
+import {contentContainer} from '../pages/contentPage'
 import {contentBlock, contentBlockWithImage} from './contentBlock'
 import favicon from './favicon'
-import images, { imageWithLink } from './images'
+import hero from './hero'
+import images, {imageWithLink} from './images'
 import links, {linkObj} from './links'
 import metaData from './metaData'
+import socialMedia from './socialMedia'
+import successSection from './successSection'
 import textAndImage from './textAndImage'
-
+import video from './video'
 
 export const components = [
   contentBlock,
@@ -17,5 +20,9 @@ export const components = [
   contentBlockWithImage,
   contentContainer,
   images,
-  imageWithLink
+  imageWithLink,
+  video,
+  hero,
+  successSection,
+  socialMedia
 ]

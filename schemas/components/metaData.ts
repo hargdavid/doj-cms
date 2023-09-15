@@ -30,5 +30,9 @@ export default {
       name: 'favicon',
       title: 'Favicon',
     },
+    {
+      type: "social",
+      name: "social"
+    }
   ],
 }

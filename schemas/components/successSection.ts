@@ -1,9 +1,8 @@
 export default {
-  name: 'startPage',
-  type: 'document',
-  title: 'Startsida',
+  name: 'success',
+  type: 'object',
+  title: 'Success',
   fields: [
-    {type: 'hero', name: 'hero'},
     {
       type: 'contentWithImage',
       name: 'content',

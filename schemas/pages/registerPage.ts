@@ -1,7 +1,7 @@
 export default {
-  name: 'startPage',
+  name: 'registerPage',
   type: 'document',
-  title: 'Startsida',
+  title: 'RegisterPage',
   fields: [
     {type: 'hero', name: 'hero'},
     {
@@ -9,5 +9,9 @@ export default {
       name: 'content',
     },
     {type: 'images', name: 'images'},
+    {
+      type: 'success',
+      name: 'success',
+    },
   ],
 }

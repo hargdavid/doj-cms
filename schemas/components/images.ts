@@ -30,6 +30,16 @@ export const imageWithLink = {
       ],
     },
     {
+      type: "string",
+      title: "Title",
+      name: "title",
+    },
+    {
+      type: "string",
+      title: "Description",
+      name: "description",
+    },
+    {
       name: 'link',
       type: 'object',
       title: 'Link',
